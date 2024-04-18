@@ -12,7 +12,7 @@ export default defineConfig({
   projectId: process.env.SANITY_STUDIO_PROJECT_ID as string,
   dataset: process.env.SANITY_STUDIO_DATASET as string,
 
-  plugins: [structureTool({structure, defaultDocumentNode}), visionTool()],
+  plugins: [structureTool({defaultDocumentNode}), visionTool()],
 
   schema: {
     types: schemaTypes,

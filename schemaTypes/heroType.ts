@@ -1,14 +1,14 @@
 import {defineField, defineType} from 'sanity'
 
 export const heroType = defineType({
-  name: 'hero',
-  title: 'Hero',
+  name: 'alltitle',
+  title: 'All Title',
   type: 'document',
   fields: [
     defineField({
       name: 'title',
-      type: 'string',
-      initialValue: 'Default title',
+      type: 'array',
+      of: [{type: 'block'}],
     }),
     defineField({
       name: 'para',
