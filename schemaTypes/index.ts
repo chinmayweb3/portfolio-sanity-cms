@@ -1,6 +1,15 @@
 import {artistType} from './artistType'
 import {eventType} from './eventType'
-import {heroType} from './heroType'
+import {allTitleType} from './heroType'
 import {venueType} from './venueType'
+import {workCardType} from './workCardType'
+import {workFilterType} from './workFilterType'
 
-export const schemaTypes = [heroType, eventType, artistType, venueType]
+export const schemaTypes = [
+  allTitleType,
+  workFilterType,
+  workCardType,
+  eventType,
+  artistType,
+  venueType,
+]
