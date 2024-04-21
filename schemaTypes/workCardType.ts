@@ -14,10 +14,14 @@ export const workCardType = defineType({
       name: 'workfilter',
       title: 'Work Filter',
       type: 'array',
+      options: {
+        layout: 'tags',
+      },
       of: [
         {
           type: 'reference',
           to: [{type: 'workfilter'}],
+          options: {disableNew: true},
         },
       ],
     }),
