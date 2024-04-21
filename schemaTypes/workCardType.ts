@@ -11,12 +11,9 @@ export const workCardType = defineType({
       title: 'Project Name',
     }),
     defineField({
-      name: 'workfilter',
-      title: 'Work Filter',
+      name: 'tech',
+      title: 'Tech',
       type: 'array',
-      options: {
-        layout: 'tags',
-      },
       of: [
         {
           type: 'reference',
@@ -29,6 +26,12 @@ export const workCardType = defineType({
       name: 'projectimage',
       title: 'Project Image',
       type: 'image',
+    }),
+
+    defineField({
+      name: 'githublink',
+      title: 'Github Link',
+      type: 'url',
     }),
   ],
 })
