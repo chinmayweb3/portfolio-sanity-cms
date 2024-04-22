@@ -1,4 +1,5 @@
 import {artistType} from './artistType'
+import {contactType} from './contactType'
 import {eventType} from './eventType'
 import {allTitleType} from './heroType'
 import {resumeType} from './resumeType'
@@ -10,8 +11,9 @@ export const schemaTypes = [
   allTitleType,
   workFilterType,
   workCardType,
+  contactType,
   resumeType,
-  eventType,
-  artistType,
-  venueType,
+  //   eventType,
+  //   artistType,
+  //   venueType,
 ]
