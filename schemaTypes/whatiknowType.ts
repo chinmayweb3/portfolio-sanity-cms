@@ -10,7 +10,7 @@ export const whatIKnowType = defineType({
       type: 'string',
     }),
     defineField({
-      name: 'technology',
+      name: 'tech',
       type: 'array',
       of: [{type: 'string'}],
     }),
