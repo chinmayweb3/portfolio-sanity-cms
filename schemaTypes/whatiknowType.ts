@@ -11,6 +11,8 @@ export const whatIKnowType = defineType({
     }),
     defineField({
       name: 'orderin',
+      title: 'Order In',
+      description: 'order in which the card are stacked',
       type: 'number',
     }),
     defineField({
